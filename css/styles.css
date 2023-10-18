@@ -1,0 +1,37 @@
+body {
+    background-color: #dfccfb;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+#box {
+    background-color: #beadfa;
+    width: 420px;
+    height: 700px;
+    padding: 20px;
+    border: none;
+    border-radius: 4%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+input {
+    font-size: 2rem; /* Rozmiar czcionki */
+    padding: 10px;
+    /* Wielkość wewnętrznego wypełnienia */
+}
+label {
+    margin-bottom: 10px;
+}
+input {
+    margin-bottom: 20px;
+}
+button,
+p {
+    font-size: 2rem;
+}
+button {
+    background-color: #fff8c9;
+    border: none;
+}
